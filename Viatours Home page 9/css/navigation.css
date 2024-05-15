@@ -1,0 +1,40 @@
+.navigation {
+    display: flex;
+    gap: 2em;
+    align-items: center;    
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 2em;    
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;    
+    align-items: center;        
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: white;            
+    padding: 0;
+    margin: 0 2em;
+    transition: all 0.3s ;
+}
+
+.navigation ul li a:hover {
+    border: 1px solid white;
+    padding: 1em 2em;
+    margin: 0;
+    border-radius: 50px;
+}
+
+.logo ul li:first-child {
+    color: #EB662B;
+    padding-right: 2em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}

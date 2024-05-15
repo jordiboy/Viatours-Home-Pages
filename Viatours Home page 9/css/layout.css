@@ -1,0 +1,11 @@
+body {
+    padding: 1em;
+    color: #05073C;   
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 8em 0;
+}
+
